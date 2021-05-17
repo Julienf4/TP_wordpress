@@ -1,0 +1,7 @@
+---
+
+  - name: Test ping
+    hosts: TP_wordpress
+    tasks:
+    - name: ping
+      ping: 
